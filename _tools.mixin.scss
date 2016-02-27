@@ -1,0 +1,8 @@
+// Reset Media Object
+
+@mixin reset-media-object($margin-bottom) {
+  margin-bottom: $margin-bottom;
+  margin-left:   0;
+  margin-right:  0;
+  float: none;
+}

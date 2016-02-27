@@ -1,0 +1,17 @@
+{
+  "name": "@iotacss/iotacss",
+  "version": "0.1.0",
+  "description": "A collection of mixins for iotaCSS",
+  "main": "_tools.mixin.scss",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iotacss/tools.mixin.git"
+  },
+  "keywords": [
+    "iotacss",
+    "css",
+    "bem",
+    "oocss"
+  ],
+  "author": "Dimitris Psaropoulos <info@harby.me>"
+}
