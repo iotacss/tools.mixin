@@ -1,5 +1,5 @@
 {
-  "name": "@iotacss/iotacss",
+  "name": "iotacss-mixin",
   "version": "0.1.0",
   "description": "A collection of mixins for iotaCSS",
   "main": "_tools.mixin.scss",
