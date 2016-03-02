@@ -6,3 +6,29 @@
   margin-right:  0;
   float: none;
 }
+
+
+
+
+// Breakpoint Mixin
+
+@mixin breakpoint($size) {
+  
+  $breakpoint-found: map-has-key($iota-breakpoint-sizes, $size);
+
+  
+  @if ($breakpoint-found == true) {
+
+    $breakpoint: map-get($iota-breakpoint-sizes, $size);
+
+    @media #{$breakpoint} {
+      @content;
+    }
+
+  } @else {
+
+    @warn "Breakpoint size " + #{$size} + " doesn't exist."
+
+  }
+
+}
