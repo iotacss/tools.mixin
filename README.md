@@ -17,7 +17,7 @@ Breakpoint mixin makes it easy to create media queries based on Settings.Breakpo
 
 #### Example ####
 
-```
+```sass
 .myClass {
   height: 100px;
   
