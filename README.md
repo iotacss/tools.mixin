@@ -12,7 +12,7 @@ npm install --save iotacss-mixin
 
 ### Breakpoint Mixin ###
 
-Breakpoint mixin makes it easy to create media queries based on Settings.Breakpoint.
+Breakpoint mixin makes it easy to create media queries. You can use it with Settings.Breakpoint or you can create your own breakpoints sass map.
 
 
 #### Example ####
@@ -27,7 +27,7 @@ Breakpoint mixin makes it easy to create media queries based on Settings.Breakpo
   }
   
   // Breakpoint for medium screens
-  @include breakpoint(md) {
+  @include breakpoint(md, $my-breakpoints-sass-map) {
     height: 200px;
   }
 }
