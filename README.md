@@ -18,7 +18,7 @@ Breakpoint mixin makes it easy to create media queries.
 #### Syntax ####
 
 ```sass
-@include breakpoint($size, $breakpoint-sizes)
+@include breakpoint($breakpoint-size, $breakpoint-sizes)
 ```
 
 
