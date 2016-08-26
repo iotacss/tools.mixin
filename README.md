@@ -25,7 +25,7 @@ Breakpoint mixin makes it easy to create media queries.
 #### Parameters ####
 
 * $breakpoint-size: Size of the breakpoint you want to use
-* $breakpoint-sizes: A Sass map that contains breakpoints. By default, uses Settings.Breakpoint. This parameter is optional.
+* $breakpoint-sizes: A Sass map that contains breakpoints. By default, uses [Settings.Breakpoint](https://github.com/iotacss/settings.breakpoint). This parameter is optional.
 
 
 #### Example ####
