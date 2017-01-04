@@ -1,4 +1,4 @@
-# Mixins Tool #
+# [Deprecated in v1.0] Mixins Tool #
 
 The mixins tool contains a collection of mixins for iotaCSS.
 
